@@ -1,0 +1,249 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: E EDY, E, LIC=ATTQ1-CFRH0-8T13P-MNALD-Z4PUR-NKSX9
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.38.0.0
+Toolchain Path:  D:\keil5\ARM\armcompiler_506\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      Segger\JL2CM3.dll V2.99.42.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+d:\github\good-demo\edge-oasis-bridgeware-gd-v2\Template\Keil5_project\Project _Iap.uvprojx
+Project File Date:  06/20/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\keil5\ARM\armcompiler_506\Bin'
+Build target 'GD32F10X_HD'
+compiling Camp.c...
+compiling DS1302.c...
+compiling gd32f10x_it.c...
+compiling adc.c...
+..\..\Core\Src\adc.c(137): warning:  #177-D: variable "total2"  was declared but never referenced
+      uint32_t total0=0,total1=0,total2=0,total3=0,total4=0; ;
+..\..\Core\Src\adc.c(137): warning:  #177-D: variable "total3"  was declared but never referenced
+      uint32_t total0=0,total1=0,total2=0,total3=0,total4=0; ;
+..\..\Core\Src\adc.c(137): warning:  #177-D: variable "total4"  was declared but never referenced
+      uint32_t total0=0,total1=0,total2=0,total3=0,total4=0; ;
+..\..\Core\Src\adc.c: 3 warnings, 0 errors
+compiling eeprom.c...
+..\..\Core\Src\eeprom.c(317): warning:  #177-D: variable "erase_counter"  was declared but never referenced
+  	uint32_t erase_counter;
+..\..\Core\Src\eeprom.c(376): warning:  #177-D: variable "i"  was declared but never referenced
+   	uint16_t i;
+..\..\Core\Src\eeprom.c(462): warning:  #177-D: variable "j"  was declared but never referenced
+  	uint16_t i,m,j;
+..\..\Core\Src\eeprom.c(374): warning:  #177-D: function "EEpWrite"  was declared but never referenced
+  static void EEpWrite(uint32_t Address,uint16_t len,uint8_t  *buf)
+..\..\Core\Src\eeprom.c(393): warning:  #177-D: function "EEpRead"  was declared but never referenced
+  static void EEpRead(uint32_t Address,uint16_t len,uint8_t  *buf)
+..\..\Core\Src\eeprom.c(364): warning:  #177-D: function "FlashRead"  was declared but never referenced
+  static void FlashRead(uint32_t PageAddress,uint32_t size,uint32_t* buffer)
+..\..\Core\Src\eeprom.c(9): warning:  #177-D: variable "PageError"  was declared but never referenced
+  static uint32_t PageError = 0;
+..\..\Core\Src\eeprom.c: 7 warnings, 0 errors
+compiling ble.c...
+..\..\Core\Src\ble.c(1041): warning:  #177-D: variable "size"  was declared but never referenced
+  	uint8_t size=0,ret_len=0;
+..\..\Core\Src\ble.c(1042): warning:  #177-D: variable "ack"  was declared but never referenced
+  	uint8_t ack=FALSE,i=0;
+..\..\Core\Src\ble.c(1042): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint8_t ack=FALSE,i=0;
+..\..\Core\Src\ble.c: 3 warnings, 0 errors
+compiling BQ40Z50.c...
+compiling main.c...
+compiling coulom.c...
+..\..\Core\Src\coulom.c(335): warning:  #177-D: variable "temp"  was declared but never referenced
+  	uint16_t temp=0;
+..\..\Core\Src\coulom.c(336): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint8_t i=0;
+..\..\Core\Src\coulom.c(337): warning:  #177-D: variable "p"  was declared but never referenced
+  	int16_t *p;
+..\..\Core\Src\coulom.c(338): warning:  #177-D: variable "temp32"  was declared but never referenced
+  	uint32_t temp32=0;
+..\..\Core\Src\coulom.c(339): warning:  #177-D: variable "soc"  was declared but never referenced
+  	uint16_t soc=0;
+..\..\Core\Src\coulom.c(340): warning:  #177-D: variable "hour"  was declared but never referenced
+  	uint32_t hour=0;
+..\..\Core\Src\coulom.c(341): warning:  #177-D: variable "current"  was declared but never referenced
+  	uint16_t current=0;
+..\..\Core\Src\coulom.c(342): warning:  #177-D: variable "Power"  was declared but never referenced
+  	uint32_t Power=NORMAL_CAPACITY;
+..\..\Core\Src\coulom.c(663): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint16_t i,len=0;
+..\..\Core\Src\coulom.c(663): warning:  #177-D: variable "len"  was declared but never referenced
+  	uint16_t i,len=0;
+..\..\Core\Src\coulom.c(664): warning:  #177-D: variable "SysVolt"  was declared but never referenced
+  	uint16_t SysVolt=0;
+..\..\Core\Src\coulom.c: 11 warnings, 0 errors
+compiling Gatt.c...
+..\..\Core\Src\Gatt.c(275): warning:  #177-D: variable "p"  was declared but never referenced
+  	GATTPROP_Def *p=NULL;
+..\..\Core\Src\Gatt.c(1246): warning:  #177-D: variable "meta"  was declared but never referenced
+  	uint8_t count=0,meta=0,head=0;
+..\..\Core\Src\Gatt.c(1247): warning:  #177-D: variable "tempjson"  was declared but never referenced
+  	uint8_t tempjson[128];
+..\..\Core\Src\Gatt.c(1362): warning:  #177-D: variable "j"  was declared but never referenced
+  	uint8_t j,*json,m=0;
+..\..\Core\Src\Gatt.c(1362): warning:  #177-D: variable "m"  was declared but never referenced
+  	uint8_t j,*json,m=0;
+..\..\Core\Src\Gatt.c(1364): warning:  #177-D: variable "p"  was declared but never referenced
+  	GATTPROP_Def *p=NULL;
+..\..\Core\Src\Gatt.c(1365): warning:  #177-D: variable "count"  was declared but never referenced
+  	uint8_t count=0,meta=0,head=0;
+..\..\Core\Src\Gatt.c(1365): warning:  #177-D: variable "meta"  was declared but never referenced
+  	uint8_t count=0,meta=0,head=0;
+..\..\Core\Src\Gatt.c(1365): warning:  #177-D: variable "head"  was declared but never referenced
+  	uint8_t count=0,meta=0,head=0;
+..\..\Core\Src\Gatt.c(1366): warning:  #177-D: variable "tempjson"  was declared but never referenced
+  	uint8_t tempjson[128];
+..\..\Core\Src\Gatt.c: 10 warnings, 0 errors
+compiling AtCmd.c...
+..\..\Core\Src\AtCmd.c(460): warning:  #550-D: variable "json"  was set but never used
+  	uint8_t *json;
+..\..\Core\Src\AtCmd.c(533): warning:  #177-D: variable "temp"  was declared but never referenced
+  	int temp = 0;
+..\..\Core\Src\AtCmd.c(939): warning:  #177-D: variable "tokenstate"  was declared but never referenced
+  	uint8_t tokenstate=0,breakfor=0;
+..\..\Core\Src\AtCmd.c(939): warning:  #177-D: variable "breakfor"  was declared but never referenced
+  	uint8_t tokenstate=0,breakfor=0;
+..\..\Core\Src\AtCmd.c(942): warning:  #177-D: variable "j"  was declared but never referenced
+  	uint16_t i,j;
+..\..\Core\Src\AtCmd.c(1240): warning:  #550-D: variable "tag_len"  was set but never used
+  	uint8_t tag_len,value_len,*p;
+..\..\Core\Src\AtCmd.c(1956): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  				 		if(strstr(p_buf,g_UserSet.abacuslist[i])!=NULL)
+..\..\Core\Src\AtCmd.c(1310): warning:  #177-D: variable "pos"  was declared but never referenced
+  	uint16_t pos=0,len_value=0,len_spec=0;
+..\..\Core\Src\AtCmd.c(1310): warning:  #177-D: variable "len_spec"  was declared but never referenced
+  	uint16_t pos=0,len_value=0,len_spec=0;
+..\..\Core\Src\AtCmd.c(1312): warning:  #177-D: variable "temp"  was declared but never referenced
+  	int temp;
+..\..\Core\Src\AtCmd.c: 10 warnings, 0 errors
+compiling JbsBms.c...
+..\..\Core\Src\JbsBms.c(147): warning:  #177-D: variable "error_cnt"  was declared but never referenced
+      uint8_t  error_cnt=0;
+..\..\Core\Src\JbsBms.c(267): warning:  #167-D: argument of type "volatile uint8_t *" is incompatible with parameter of type "uint8_t *"
+      IapDetect(g_Uart485Buf,&RxUart3Counter);
+..\..\Core\Src\JbsBms.c(283): warning:  #550-D: variable "crc"  was set but never used
+  			uint8_t *p,crc,num=0,value=0,ntc=0,cmd=0;
+..\..\Core\Src\JbsBms.c(283): warning:  #177-D: variable "num"  was declared but never referenced
+  			uint8_t *p,crc,num=0,value=0,ntc=0,cmd=0;
+..\..\Core\Src\JbsBms.c(283): warning:  #177-D: variable "value"  was declared but never referenced
+  			uint8_t *p,crc,num=0,value=0,ntc=0,cmd=0;
+..\..\Core\Src\JbsBms.c(241): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint16_t i=0,len=0,j=0;
+..\..\Core\Src\JbsBms.c: 6 warnings, 0 errors
+compiling key.c...
+..\..\Core\Src\key.c(394): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint8_t i,temp=0;
+..\..\Core\Src\key.c(394): warning:  #177-D: variable "temp"  was declared but never referenced
+  	uint8_t i,temp=0;
+..\..\Core\Src\key.c: 2 warnings, 0 errors
+compiling GsmCom.c...
+compiling gps.c...
+..\..\Core\Src\gps.c(115): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint32_t i=0;
+..\..\Core\Src\gps.c(116): warning:  #177-D: variable "p_gps"  was declared but never referenced
+  	uint8_t *p_gps=NULL,clear=0;
+..\..\Core\Src\gps.c(118): warning:  #550-D: variable "speed"  was set but never used
+  	uint16_t speed=0;
+..\..\Core\Src\gps.c: 3 warnings, 0 errors
+compiling lcd.c...
+compiling Pump.c...
+..\..\Core\Src\Pump.c(467): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint8_t i=0;
+..\..\Core\Src\Pump.c(657): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint16_t i,len=0;
+..\..\Core\Src\Pump.c(657): warning:  #177-D: variable "len"  was declared but never referenced
+  	uint16_t i,len=0;
+..\..\Core\Src\Pump.c: 3 warnings, 0 errors
+compiling Menu.c...
+..\..\Core\Src\Menu.c(126): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint8_t i,flag=0;
+..\..\Core\Src\Menu.c(126): warning:  #177-D: variable "flag"  was declared but never referenced
+  	uint8_t i,flag=0;
+..\..\Core\Src\Menu.c(127): warning:  #177-D: variable "volt"  was declared but never referenced
+  	uint16_t volt=0,current=0,power=0,temp=0;
+..\..\Core\Src\Menu.c(127): warning:  #177-D: variable "current"  was declared but never referenced
+  	uint16_t volt=0,current=0,power=0,temp=0;
+..\..\Core\Src\Menu.c(127): warning:  #177-D: variable "power"  was declared but never referenced
+  	uint16_t volt=0,current=0,power=0,temp=0;
+..\..\Core\Src\Menu.c(127): warning:  #177-D: variable "temp"  was declared but never referenced
+  	uint16_t volt=0,current=0,power=0,temp=0;
+..\..\Core\Src\Menu.c(452): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint8_t i,flag=1;
+..\..\Core\Src\Menu.c(544): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint8_t i,flag=1;
+..\..\Core\Src\Menu.c(544): warning:  #550-D: variable "flag"  was set but never used
+  	uint8_t i,flag=1;
+..\..\Core\Src\Menu.c(545): warning:  #550-D: variable "power"  was set but never used
+  	uint16_t volt=0,current=0,power=0,temp=0;
+..\..\Core\Src\Menu.c(639): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint8_t i,flag=1;
+..\..\Core\Src\Menu.c(713): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint8_t i,flag=1;
+..\..\Core\Src\Menu.c(714): warning:  #550-D: variable "power"  was set but never used
+  	uint16_t volt=0,current=0,power=0,temp=0;
+..\..\Core\Src\Menu.c(812): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint8_t i,flag=1;
+..\..\Core\Src\Menu.c(812): warning:  #550-D: variable "flag"  was set but never used
+  	uint8_t i,flag=1;
+..\..\Core\Src\Menu.c(813): warning:  #550-D: variable "power"  was set but never used
+  	uint16_t volt=0,current=0,power=0,temp=0;
+..\..\Core\Src\Menu.c: 16 warnings, 0 errors
+compiling OffGrid.c...
+..\..\Core\Src\OffGrid.c(171): warning:  #177-D: variable "len"  was declared but never referenced
+  	uint16_t i=0,len=0,j=0;
+..\..\Core\Src\OffGrid.c(171): warning:  #177-D: variable "j"  was declared but never referenced
+  	uint16_t i=0,len=0,j=0;
+..\..\Core\Src\OffGrid.c: 2 warnings, 0 errors
+compiling SmartBms.c...
+..\..\Core\Src\SmartBms.c(207): warning:  #177-D: variable "pint16"  was declared but never referenced
+  			int16_t *pint16=0,int16=0;
+..\..\Core\Src\SmartBms.c: 1 warning, 0 errors
+compiling Keyboard.c...
+compiling payg.c...
+..\..\Core\Src\payg.c(712): warning:  #177-D: variable "temp"  was declared but never referenced
+  		uint8_t temp[8];
+..\..\Core\Src\payg.c(707): warning:  #177-D: variable "output_en"  was declared but never referenced
+  	uint8_t output_en=TRUE;
+..\..\Core\Src\payg.c: 2 warnings, 0 errors
+compiling temp.c...
+compiling i2c.c...
+compiling Timer.c...
+linking...
+Program Size: Code=65760 RO-data=13792 RW-data=1308 ZI-data=32628  
+FromELF: creating hex file...
+After Build - User command #1: c:\Keil\ARM\BIN40\fromelf --bin --output output_iap\BridgewareV2_IAP.bin output_iap\BridgewareV2.axf
+*** Error: CreateProcess failed, Command: 'c:\Keil\ARM\BIN40\fromelf --bin --output output_iap\BridgewareV2_IAP.bin output_iap\BridgewareV2.axf'
+".\output_Iap\BridgewareV2.axf" - 1 Error(s), 79 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: GigaDevice
+                https://gd32mcu.com/data/documents/pack/GigaDevice.GD32F10x_DFP.2.0.3.pack
+                GigaDevice.GD32F10x_DFP.2.0.3
+                GigaDevice GD32F10x Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  D:/keil5/GigaDevice/GD32F10x_DFP/2.0.3/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

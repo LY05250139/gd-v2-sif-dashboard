@@ -1,0 +1,117 @@
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\keil5\ARM\armcompiler_506\Bin'
+Build target 'GD32F10X_CL'
+compiling AtCmd.c...
+..\main.h(97): error:  #5: cannot open source input file "gatt.h": No such file or directory
+  #include"gatt.h"
+..\..\Core\Src\AtCmd.c: 0 warnings, 1 error
+compiling coulom.c...
+..\main.h(97): error:  #5: cannot open source input file "gatt.h": No such file or directory
+  #include"gatt.h"
+..\..\Core\Src\coulom.c: 0 warnings, 1 error
+compiling adc.c...
+..\main.h(97): error:  #5: cannot open source input file "gatt.h": No such file or directory
+  #include"gatt.h"
+..\..\Core\Src\adc.c: 0 warnings, 1 error
+compiling eeprom.c...
+..\main.h(97): error:  #5: cannot open source input file "gatt.h": No such file or directory
+  #include"gatt.h"
+..\..\Core\Src\eeprom.c: 0 warnings, 1 error
+compiling DS1302.c...
+..\main.h(97): error:  #5: cannot open source input file "gatt.h": No such file or directory
+  #include"gatt.h"
+..\..\Core\Src\DS1302.c: 0 warnings, 1 error
+compiling BQ40Z50.c...
+..\main.h(97): error:  #5: cannot open source input file "gatt.h": No such file or directory
+  #include"gatt.h"
+..\..\Core\Src\BQ40Z50.c: 0 warnings, 1 error
+compiling ble.c...
+..\main.h(97): error:  #5: cannot open source input file "gatt.h": No such file or directory
+  #include"gatt.h"
+..\..\Core\Src\ble.c: 0 warnings, 1 error
+compiling Camp.c...
+..\main.h(97): error:  #5: cannot open source input file "gatt.h": No such file or directory
+  #include"gatt.h"
+..\..\Core\Src\Camp.c: 0 warnings, 1 error
+compiling Gatt.c...
+..\main.h(97): error:  #5: cannot open source input file "gatt.h": No such file or directory
+  #include"gatt.h"
+..\..\Core\Src\Gatt.c: 0 warnings, 1 error
+compiling gd32f10x_it.c...
+..\main.h(97): error:  #5: cannot open source input file "gatt.h": No such file or directory
+  #include"gatt.h"
+..\gd32f10x_it.c: 0 warnings, 1 error
+compiling main.c...
+..\main.h(97): error:  #5: cannot open source input file "gatt.h": No such file or directory
+  #include"gatt.h"
+..\main.c: 0 warnings, 1 error
+compiling JbsBms.c...
+..\main.h(97): error:  #5: cannot open source input file "gatt.h": No such file or directory
+  #include"gatt.h"
+..\..\Core\Src\JbsBms.c: 0 warnings, 1 error
+compiling Keyboard.c...
+..\main.h(97): error:  #5: cannot open source input file "gatt.h": No such file or directory
+  #include"gatt.h"
+..\..\Core\Src\Keyboard.c: 0 warnings, 1 error
+compiling mqtt.c...
+..\..\Core\Src\mqtt.c(2): error:  #5: cannot open source input file "mqtt.h": No such file or directory
+  #include "mqtt.h"
+..\..\Core\Src\mqtt.c: 0 warnings, 1 error
+compiling gps.c...
+..\main.h(97): error:  #5: cannot open source input file "gatt.h": No such file or directory
+  #include"gatt.h"
+..\..\Core\Src\gps.c: 0 warnings, 1 error
+compiling Menu.c...
+..\main.h(97): error:  #5: cannot open source input file "gatt.h": No such file or directory
+  #include"gatt.h"
+..\..\Core\Src\Menu.c: 0 warnings, 1 error
+compiling GsmCom.c...
+..\main.h(97): error:  #5: cannot open source input file "gatt.h": No such file or directory
+  #include"gatt.h"
+..\..\Core\Src\GsmCom.c: 0 warnings, 1 error
+compiling lcd.c...
+..\main.h(97): error:  #5: cannot open source input file "gatt.h": No such file or directory
+  #include"gatt.h"
+..\..\Core\Src\lcd.c: 0 warnings, 1 error
+compiling key.c...
+..\main.h(97): error:  #5: cannot open source input file "gatt.h": No such file or directory
+  #include"gatt.h"
+..\..\Core\Src\key.c: 0 warnings, 1 error
+compiling payg.c...
+..\main.h(97): error:  #5: cannot open source input file "gatt.h": No such file or directory
+  #include"gatt.h"
+..\..\Core\Src\payg.c: 0 warnings, 1 error
+compiling Pump.c...
+..\main.h(97): error:  #5: cannot open source input file "gatt.h": No such file or directory
+  #include"gatt.h"
+..\..\Core\Src\Pump.c: 0 warnings, 1 error
+compiling OffGrid.c...
+..\main.h(97): error:  #5: cannot open source input file "gatt.h": No such file or directory
+  #include"gatt.h"
+..\..\Core\Src\OffGrid.c: 0 warnings, 1 error
+compiling Sif.c...
+..\..\Core\Src\Sif.c(1): error:  #5: cannot open source input file "Sif.h": No such file or directory
+  #include "Sif.h"
+..\..\Core\Src\Sif.c: 0 warnings, 1 error
+compiling at24cxx.c...
+..\..\Core\Src\at24cxx.c(35): error:  #5: cannot open source input file "at24cxx.h": No such file or directory
+  #include "at24cxx.h"
+..\..\Core\Src\at24cxx.c: 0 warnings, 1 error
+compiling SmartBms.c...
+..\main.h(97): error:  #5: cannot open source input file "gatt.h": No such file or directory
+  #include"gatt.h"
+..\..\Core\Src\SmartBms.c: 0 warnings, 1 error
+compiling temp.c...
+..\main.h(97): error:  #5: cannot open source input file "gatt.h": No such file or directory
+  #include"gatt.h"
+..\..\Core\Src\temp.c: 0 warnings, 1 error
+compiling Timer.c...
+..\main.h(97): error:  #5: cannot open source input file "gatt.h": No such file or directory
+  #include"gatt.h"
+..\..\Core\Src\Timer.c: 0 warnings, 1 error
+compiling i2c.c...
+..\main.h(97): error:  #5: cannot open source input file "gatt.h": No such file or directory
+  #include"gatt.h"
+..\..\Core\Src\i2c.c: 0 warnings, 1 error
+".\output\Project.axf" - 28 Error(s), 0 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:02
